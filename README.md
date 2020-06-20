@@ -8,8 +8,8 @@ Both parts are evaluated separately and will be combined into a single score in 
 ## Thumbnail based evaluation
 In this part we train an NN to distinguish the thumbnails of trending videos from videos sampled from my subscription feed.
 To do this we retrain a MobileNet that was trained on ImageNet.
-The training takes place in the **`trainig.ipynb-`**.
-In the **'tf_lite_test.ipynb'** we can see an example prediction implementation together with the prediction of a few thumbnails (that were part of the training process).
+The training takes place in the **`trainig.ipynb`**.
+In the **`tf_lite_test.ipynb`** we can see an example prediction implementation together with the prediction of a few thumbnails (that were part of the training process).
 
 ## Title based prediction
 This section will contain information about the title based prediction once it is implemented.
